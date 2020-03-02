@@ -8,12 +8,12 @@
   <section name="data">
     <explorer view="" pattern="0"/>
     <log show="1"/>
-    <lastopen date="2020-03-02 21:04" user="kai" host="kai-mac.local"/>
+    <lastopen date="2020-03-02 21:28" user="kai" host="kai-mac.local"/>
   </section>
   <section name="files">
     <file name="md5hash.pb">
       <config load="1" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
-      <fingerprint md5="d16a1c1619311a6cbbe9a3d3a32546e7"/>
+      <fingerprint md5="0614e93198da71c4e649e9bb92ea7a11"/>
     </file>
   </section>
   <section name="targets">
@@ -23,8 +23,8 @@
       <executable value="bin/md5hash"/>
       <options xpskin="1" debug="1"/>
       <format exe="console" cpu="0"/>
-      <compilecount enable="1" value="6"/>
-      <buildcount enable="1" value="6"/>
+      <compilecount enable="1" value="11"/>
+      <buildcount enable="1" value="8"/>
     </target>
   </section>
 </project>
