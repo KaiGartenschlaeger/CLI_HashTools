@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 5.71 LTS (MacOS X - x64)">
+  <section name="config">
+    <options closefiles="1" openmode="3" name="HashTools"/>
+    <comment>Command line hash tools.</comment>
+  </section>
+  <section name="data">
+    <explorer view="" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2020-03-02 21:04" user="kai" host="kai-mac.local"/>
+  </section>
+  <section name="files">
+    <file name="md5hash.pb">
+      <config load="1" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="d16a1c1619311a6cbbe9a3d3a32546e7"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="md5hash" enabled="1" default="1">
+      <inputfile value="md5hash.pb"/>
+      <outputfile value="bin/md5hash"/>
+      <executable value="bin/md5hash"/>
+      <options xpskin="1" debug="1"/>
+      <format exe="console" cpu="0"/>
+      <compilecount enable="1" value="6"/>
+      <buildcount enable="1" value="6"/>
+    </target>
+  </section>
+</project>
